@@ -1,0 +1,102 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #2c3e50;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.game {
+    background-color: #34495e;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.title {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #ecf0f1;
+    margin-bottom: 20px;
+}
+
+.difficulty {
+    font-size: 1.2rem;
+    padding: 5px;
+    margin-bottom: 20px;
+    background-color: #ecf0f1;
+    color: #2c3e50;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    width: 100px;
+    height: 100px;
+    font-size: 2rem;
+    border-radius: 10px;
+    border: 2px solid #ecf0f1;
+    background-color: #fff;
+    color: #2c3e50;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn.cross {
+    color: #e74c3c;         /* Red for X */
+    font-weight: bold;
+}
+
+.btn.circle {
+    color: #3498db;        /* Blue for O */
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: #ecf0f1;
+}
+
+.btn:disabled {
+    background-color: #bdc3c7;
+    cursor: not-allowed;
+}
+
+.reset {
+    font-size: 1.5rem;
+    padding: 10px 20px;
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+.reset:hover {
+    background-color: #c0392b;
+}
+
+.win {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #1abc9c;
+    margin-top: 20px;
+    display: none;
+}
