@@ -6,13 +6,10 @@ A modern, browser-based Tic Tac Toe game featuring an intelligent AI opponent po
 
 ## 🚀 Live Demo  
 🔗 [Play Now](https://shubham-kumar2311.github.io/AI-tic-tac-toe/)  
-*Replace the above URL with your actual deployment link (e.g., GitHub Pages, Netlify, or Vercel)*
-
 ---
 
 ## 🖼️ Screenshot  
 ![Tic Tac Toe Game Screenshot](ss.png)  
-*Make sure this image exists at the specified path.*
 
 ---
 
